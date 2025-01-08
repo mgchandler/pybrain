@@ -1,21 +1,15 @@
 # pybrain
 
-[![PyPI - Version](https://img.shields.io/pypi/v/pybrain.svg)](https://pypi.org/project/pybrain)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pybrain.svg)](https://pypi.org/project/pybrain)
+A Python library for communicating with ultrasonic acquisition systems in the Bristol UNDT laboratory. 
 
 -----
-
-## Table of Contents
-
-- [Installation](#installation)
-- [License](#license)
 
 ## Installation
 
 ```console
-pip install pybrain
+pip install git+https://github.com/mgchandler/pybrain.git
 ```
 
-## License
+## See also
 
-`pybrain` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+Dependency on [`arim`](https://github.com/ndtatbristol/arim), a Python library for modelling and imaging in ultrasonic testing.
